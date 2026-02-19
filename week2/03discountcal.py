@@ -1,0 +1,7 @@
+print("aapka apna discout calculaor")
+print("aao aao or apna paisa bchao")
+n=input("intrested ?")
+n = input("write the price of product")
+p=int(n)
+print("congratulation you got 10% off")
+print("your final price =",0.9*p)
