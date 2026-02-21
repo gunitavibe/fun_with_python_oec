@@ -1,8 +1,10 @@
-print("hello everyone")
-n=1
-c=1
-while(c==1):
-    print("i love you")
-    c=input("are you argee 0/1" )
-    c=int(c)
-print("i can never unlove you")    
+print("Hello Developers")
+n = 1
+c = 0
+
+while(c == 0):
+    print("I love coding")
+    c = input("Do you agree? 0/1: ")
+    c = int(c)
+
+print("Keep learning and never stop improving")

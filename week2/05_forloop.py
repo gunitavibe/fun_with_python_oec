@@ -1,4 +1,4 @@
-n=input("how you feel about me ?")
+n = input("Describe your coding mindset in one word: ")
+
 for i in range(10):
-    print(n)
-    
+    print("Your coding mindset:", n)
