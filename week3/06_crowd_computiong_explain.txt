@@ -1,0 +1,32 @@
+Crowd Statistics and Visualization
+
+This file demonstrates three statistical and visualization concepts using Python.
+
+1. Trimmed Mean
+
+The trimmed mean removes the lowest 10% and highest 10% values from the dataset before calculating the average. 
+This helps reduce the effect of outliers and gives a more accurate estimate.
+
+2. Basic Plotting
+
+Basic plotting is used to visualize data points and understand patterns. 
+Different plot styles such as dots, lines, and shapes help represent data clearly.
+
+3. Mean and Median Visualization
+
+This part compares crowd estimates using trimmed data. 
+It visualizes the mean and median to show how central values represent the dataset.
+ Mean and median help understand the true center of the data, especially when outliers exist.
+
+Purpose
+
+The purpose of this file is to demonstrate how statistics and visualization can improve accuracy
+ and understanding of real-world data such as crowd estimation.
+
+Concepts Covered
+
+Mean
+Median
+Trimmed Mean
+Outliers
+Data Visualization
