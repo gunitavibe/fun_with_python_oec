@@ -1,32 +1,25 @@
-# 📚 Python OEC – Practice Collection
+# 📚 Python OEC – Week Practice Collection
 
-This folder contains implementations of major concepts covered in the Python OEC course.
-
-This collection focuses on:
-
-- List manipulation  
-- Conditional logic  
-- Loops and iteration  
-- FizzBuzz problem  
-- Statistical analysis  
-- Data visualization  
-- Game development logic  
-- Evolution simulation  
-- File handling  
+This repository contains all implementations from the Python OEC course,
+covering lists, logic building, statistics, simulations, and assignments.
 
 ---
 
-## 📂 Files Overview  
+## 📂 Files Overview
 
-### 🔹 List Operations & FizzBuzz
+### 🔹 List Operations
 
 | File | Description |
 |------|------------|
-| `lists_practice.py` | List creation, sorting, reversing, slicing |
-| `fizzbuzz.py` | FizzBuzz logic from 1–50 |
+| `01_list.py` | Introduction to lists |
+| `02_list.py` | List manipulation (append, insert) |
+| `03_list.py` | Sorting, reversing, counting |
+| `04_list.py` | Slicing and indexing |
 
 **Concepts Covered:**
 
+- Indexing  
+- Iteration  
 - `append()`  
 - `insert()`  
 - `count()`  
@@ -34,17 +27,31 @@ This collection focuses on:
 - `sort()`  
 - `reverse()`  
 - List slicing  
+
+---
+
+### 🔹 FizzBuzz
+
+| File | Description |
+|------|------------|
+| `05_fizzbuzz.py` | FizzBuzz implementation (1–50) |
+
+**Concepts Covered:**
+
+- Loops  
 - Nested conditions  
 - Modulo operator  
 
 ---
 
-### 🔹 Crowd Statistics & Visualization
+### 🔹 Crowd Computing & Statistics
 
 | File | Description |
 |------|------------|
-| `crowd_statistics.py` | Trimmed mean calculation and plotting |
-| `mean_median_visualization.py` | Mean vs median comparison |
+| `06_crowd_computing_expla` | Concept explanation |
+| `07_crowd_computing.py` | Basic crowd estimation |
+| `08_crowd_computing.py` | Trimmed mean calculation |
+| `09_crowd_computing.py` | Visualization with matplotlib |
 
 **Concepts Covered:**
 
@@ -53,7 +60,7 @@ This collection focuses on:
 - Trimmed Mean  
 - Outlier removal  
 - Sorting  
-- `matplotlib` plotting  
+- Data visualization  
 
 ---
 
@@ -61,16 +68,15 @@ This collection focuses on:
 
 | File | Description |
 |------|------------|
-| `permutations_game.py` | Two-player jumbled word guessing game |
+| `10_permutation.py` | Two-player jumbled word guessing game |
 
 **Concepts Covered:**
 
 - `random` library  
 - String manipulation  
-- While loop  
+- Game logic  
 - Turn alternation  
 - Score tracking  
-- Function design  
 
 ---
 
@@ -78,24 +84,27 @@ This collection focuses on:
 
 | File | Description |
 |------|------------|
-| `evolution_theory.txt` | Concept explanation |
-| `evolution_simulation.py` | Binary mutation simulation using file handling |
+| `11_evolution.txt` | Theory explanation |
+| `12_evolution.py` | Random library basics |
+| `13_evolution.py` | Mutation concept |
+| `14_dna_data.txt` | DNA binary data |
+| `15_evolution.py` | Full mutation simulation |
 
 **Concepts Covered:**
 
-- File handling (`open`, read)  
-- Random index selection  
-- Mutation probability  
+- File handling  
+- Random mutation  
+- Probability  
 - Binary string manipulation  
 - Iterative simulation  
 
 ---
 
-### 🔹 Assignment – Advanced List Practice
+### 🔹 Assignment
 
 | File | Description |
 |------|------------|
-| `list_assignment.py` | Complete list lifecycle operations |
+| `16_assignment.py` | Complete list operations practice |
 
 **Concepts Covered:**
 
@@ -112,15 +121,13 @@ This collection focuses on:
 
 ## 🧠 Key Learning Outcomes
 
-By completing this collection, the following skills are developed:
-
-- Strong understanding of list operations  
-- Mastery of loops and conditions  
-- Practical use of randomness  
-- Basic statistical reasoning  
-- Data visualization fundamentals  
-- Game logic implementation  
-- Simulation of real-world concepts  
+- Strong understanding of lists  
+- Loop and condition mastery  
+- Random number generation  
+- File handling  
+- Statistical thinking  
+- Data visualization  
+- Simulation logic  
 
 ---
 
@@ -129,10 +136,10 @@ By completing this collection, the following skills are developed:
 Example:
 
 ```bash
-python filename.py
+python 05_fizzbuzz.py
 ```
 
-Install required library if needed:
+For visualization programs:
 
 ```bash
 pip install matplotlib
