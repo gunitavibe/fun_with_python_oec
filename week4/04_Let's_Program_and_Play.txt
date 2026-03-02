@@ -1,0 +1,81 @@
+🎮 Let’s Program and Play – Build Your Own Game
+
+Programming is not about what you know. It’s about what you can figure
+out.
+
+Most of us have played games like:
+
+-   🎮 Super Mario Bros.
+-   🐦 Angry Birds
+-   🍬 Candy Crush Saga
+
+We’ve spent hours playing them.
+
+Now it’s time to build one.
+
+------------------------------------------------------------------------
+
+🎮 Dobble Game – Spot the Similarity
+
+A logic-based matching game built with Python.
+
+Programming is not about what you know — it’s about what you can figure
+out.
+
+🧠 About the Game
+
+Dobble (Spot It!) is a fast-paced observation game.
+
+-   Each card contains 8 symbols
+-   Any two cards share exactly one common symbol
+-   Players must quickly identify the matching symbol
+
+Example: Card A → Horse, Candle, Star Card B → Candle, Moon, Apple
+Common symbol: Candle
+
+------------------------------------------------------------------------
+
+🎯 How It Works
+
+-   Two cards are generated
+-   Players compare symbols
+-   First to find the single match wins
+
+The challenge: 8 × 8 = 64 possible comparisons — but only one correct
+match
+
+------------------------------------------------------------------------
+
+💻 Features
+
+-   Random card generation
+-   Unique matching logic
+-   Interactive gameplay
+-   Expandable design
+
+------------------------------------------------------------------------
+
+🛠️ Tech Stack
+
+-   Python
+-   Random module
+-   Lists & Sets
+-   Algorithm design
+
+------------------------------------------------------------------------
+
+🚀 Future Improvements
+
+-   GUI (Tkinter / Pygame)
+-   Timer mode
+-   Multiplayer
+-   Score system
+
+------------------------------------------------------------------------
+
+🏁 Goal
+
+This project focuses on logic, algorithm design, and problem-solving
+through game development.
+
+Build. Experiment. Improve.

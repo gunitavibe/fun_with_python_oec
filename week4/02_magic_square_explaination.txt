@@ -1,0 +1,92 @@
+# 🎯 Magic Square – Siamese Method (Clean Version)
+
+## 📌 Definition
+
+A **Magic Square** is an **n × n matrix** in which:
+
+* The sum of every row is the same
+* The sum of every column is the same
+* The sum of both diagonals is the same
+
+This common sum is called the **Magic Number**.
+
+---
+
+## 🧮 Magic Number Formula
+
+[
+M = \frac{n(n^2 + 1)}{2}
+]
+
+**Example:**
+For n = 3
+
+[
+M = \frac{3(9 + 1)}{2} = 15
+]
+
+---
+
+## ⚠️ Condition
+
+The Siamese method works **only for odd values of n**
+(3, 5, 7, 9, ...)
+
+---
+
+## 🧠 Algorithm – Siamese Method
+
+### Step 1: Initialization
+
+* Create an n × n matrix filled with 0
+* Place number **1** at:
+
+  * Row = n // 2
+  * Column = n - 1
+
+---
+
+### Step 2: Placement Rule
+
+For each next number (2 to n²):
+
+1. Move:
+
+   * Row = Row - 1
+   * Column = Column + 1
+
+2. Apply special conditions:
+
+---
+
+## 🔄 Special Conditions
+
+1. If **row == -1 AND column == n**
+   → row = 0
+   → column = n - 2
+
+2. If **column == n**
+   → column = 0
+
+3. If **row < 0**
+   → row = n - 1
+
+4. If the position is already filled
+   → column = column - 2
+   → row = row + 1
+
+---
+
+## 💻 Code Logic Summary
+
+* Initialize matrix with zeros
+* Set starting position
+* Loop from 1 to n²
+
+  * Insert number
+  * Move to next position
+  * Apply boundary and filled-cell conditions
+* Print the matrix
+* Print the Magic Number
+
+---

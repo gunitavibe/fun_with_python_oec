@@ -1,0 +1,75 @@
+🎮 Dobble Game – Logic Explanation
+Objective
+
+The program creates two cards with 5 random symbols each.
+There is exactly one common symbol between both cards.
+The user must identify that common symbol.
+
+Step 1: Import Modules
+
+string → provides letters (A–Z, a–z)
+
+random → used to generate random positions and symbols
+
+Step 2: Choose Random Positions
+
+m and n are random numbers between 0 and 4.
+
+m → position of common symbol in Card 1
+
+n → position of common symbol in Card 2
+
+Step 3: Select Common Symbol
+
+A random letter is chosen from all letters and stored in same_symbol.
+It is removed from the list to avoid duplication.
+
+Step 4: Create Empty Cards
+
+Two lists of size 5 are created:
+
+card1
+
+card2
+
+Step 5: Fill the Cards
+
+A loop runs from index 0 to 4.
+
+There are three cases:
+
+If index equals m → put common symbol in Card 1
+
+If index equals n → put common symbol in Card 2
+
+Otherwise → fill both cards with different random symbols
+
+Each chosen symbol is removed from the list to prevent duplicates.
+
+This guarantees:
+
+Only one matching symbol
+
+All other symbols are different
+
+Step 6: User Guess
+
+The cards are printed.
+The user inputs the symbol they think is common.
+
+If input equals same_symbol → correct
+Otherwise → try again
+
+Conclusion
+
+The program uses:
+
+Random number generation
+
+Lists
+
+Loops
+
+Conditions
+
+It successfully simulates a simple Dobble-style matching game.
